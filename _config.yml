@@ -8,16 +8,16 @@ url: "http://username.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+url: "http://annegentle.github.io/beautiful-jekyll"
+baseurl: "/beautiful-jekyll"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Demo beautiful-jekyll for Docs Like Code Handbook
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Proof that treating docs like code works!
 
 # --- Navigation bar options --- #
 
