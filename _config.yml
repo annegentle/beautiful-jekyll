@@ -8,8 +8,8 @@ url: "http://annegentle.github.io/beautiful-jekyll"
 baseurl: "/beautiful-jekyll"
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+url: "http://daattali.github.io/beautiful-jekyll"
+baseurl: "/beautiful-jekyll"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -18,6 +18,7 @@ title: Anne's demo
 
 # Short description of your site
 description: A virtual proof that demo Jekyll is awesome!
+title: Beautiful Jekyll
 
 # --- Navigation bar options --- #
 
@@ -37,6 +38,15 @@ avatar: "/img/avatar-icon.png"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
+# List of links in the navigation bar
+navbar-links:
+  Home: ""
+  Resources:
+    - Getting started: "getstarted"
+    - Featured users: "featured-users"
+    - Project page: "https://github.com/daattali/beautiful-jekyll#readme"
+  About me: "http://deanattali.com"
+  Support me: "http://deanattali.com/aboutme/#feed-meeee"
 
 # --- Footer options --- #
 
@@ -59,26 +69,6 @@ author:
   spotify: yourname   # eg. daattali
   telephone: yourphone   # eg. +14159998888
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: false
-  facebook: true
-  email: true
-  twitter: true
-  google-plus: false
-  github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-
-# Select which share links to show in posts
-share-links-active:
   twitter: true
   facebook: true
   google: false
@@ -86,14 +76,14 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "deanattali.com/beautiful-jekyll"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-59820529-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -129,17 +119,25 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+<<<<<<< HEAD
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+=======
+      comments: true  # add comments to all blog posts 
+      show-share: true # add sharing buttons to all blog posts
+>>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
+<<<<<<< HEAD
       show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
+=======
+>>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
 
 # Exclude these files from production site
 exclude:

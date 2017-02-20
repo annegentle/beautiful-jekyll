@@ -158,10 +158,15 @@
 		  {{ site.author.name }}
 		  &nbsp;&bull;&nbsp;
 		  {{ site.time | date: '%Y' }}
+<<<<<<< HEAD
 
 		  {% if site.url-pretty %}
+=======
+		  
+		  {% if site.author.email %}
+>>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
 		  &nbsp;&bull;&nbsp;
-		  <a href="{{ site.url }}">{{ site.url-pretty }}</a>
+		  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
 		  {% endif %}
 	    </p>
 	        <!-- Please don't remove this, keep my open source work credited :) -->

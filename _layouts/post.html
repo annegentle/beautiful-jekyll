@@ -7,6 +7,7 @@ layout: base
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<<<<<<< HEAD
 
       <article role="main" class="blog-post">
         {{ content }}
@@ -29,6 +30,12 @@ layout: base
         {% include social-share.html %}
       {% endif %}
 
+=======
+      <article role="main" class="blog-post">
+	      {{ content }}
+	    </article>
+
+>>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
       <ul class="pager blog-pager">
         {% if page.previous.url %}
         <li class="previous">
@@ -41,12 +48,21 @@ layout: base
         </li>
         {% endif %}
       </ul>
+<<<<<<< HEAD
 
       {% if page.comments %}
         <div class="disqus-comments">
           {% include disqus.html %}
         </div>
       {% endif %}
+=======
+      
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
+>>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
     </div>
   </div>
 </div>

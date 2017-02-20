@@ -396,6 +396,7 @@ footer .theme-by {
 .post-preview .blog-tags {
   margin-top: 5px;
   margin-bottom: 0;
+<<<<<<< HEAD
 }
 
 @media only screen and (min-width: 768px) {
@@ -417,6 +418,16 @@ footer .theme-by {
     float: left;
   }
 }
+=======
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview .blog-tags {
+    margin-top: 10px;
+  }
+}
+
+>>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
 /* --- Post and page headers --- */
 
 .intro-header {
@@ -679,4 +690,8 @@ td.gutter {
 
 #social-share-section {
   margin-bottom: 30px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
