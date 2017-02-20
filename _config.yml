@@ -119,25 +119,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-<<<<<<< HEAD
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-=======
-      comments: true  # add comments to all blog posts 
-      show-share: true # add sharing buttons to all blog posts
->>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
-<<<<<<< HEAD
-      show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
-=======
->>>>>>> 3ab3a25c4ace0313be5ecde65336316a66c5bb67
 
 # Exclude these files from production site
 exclude:
@@ -203,5 +192,3 @@ prose:
 gems:
   - jekyll-paginate
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
